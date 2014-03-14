@@ -41,6 +41,6 @@
 [core]
 	excludesfile = ~/.gitignore.global
 [github]
-	user = justone
+	user = mrname
 [include]
 	path = ~/.gitconfig.local
