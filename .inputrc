@@ -5,6 +5,10 @@ set bind-tty-special-chars Off
 set editing-mode vi
 set keymap vi
 
+#Manual bindings for beginning and end of line
+bind "\C-a":beginning-of-line
+bind "\C-e":end-of-line
+
 $if mode=vi
 set keymap vi-command
 # these are only in command mode
