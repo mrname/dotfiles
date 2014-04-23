@@ -1,3 +1,11 @@
+execute pathogen#infect()
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=1
+
+let g:pep8_map='<F6>'
+
+filetype plugin on
+
 syntax on
 
 " size of a hard tabstop
@@ -13,3 +21,6 @@ set expandtab
 set softtabstop=4
 
 set ruler
+
+set foldmethod=indent
+set foldlevel=99
