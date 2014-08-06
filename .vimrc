@@ -1,26 +1,18 @@
-execute pathogen#infect()
-" let g:syntastic_check_on_open=1
-" let g:syntastic_enable_signs=1
+filetype off
 
-let g:pep8_map='<F6>'
+call pathogen#infect()
+call pathogen#helptags()
 
-filetype plugin on
+filetype plugin indent on
 
 syntax on
 
-" size of a hard tabstop
-set tabstop=4
-
-" size of an "indent"
-set shiftwidth=4
-
-set expandtab
-
-" a combination of spaces and tabs are used to simulate tab stops at a width
-" other than the (hard)tabstop
-set softtabstop=4
-
-set ruler
-
-set foldmethod=indent
-set foldlevel=99
+"set ai to terse nowarn sm ruler redraw sw=2 ts=2
+setlocal tabstop=4
+setlocal softtabstop=4
+setlocal shiftwidth=4
+setlocal textwidth=80
+set ai
+set to "timeout for getting commands
+set ruler redraw
+set expandtab smarttab
