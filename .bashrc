@@ -10,3 +10,5 @@ alias pipr='pip install --no-deps --ignore-installed'
 #export WORKON_HOME=$HOME/.virtualenvs
 #source /usr/local/bin/virtualenvwrapper.sh
 
+# Completion
+. $HOME/.bash_completion.d/*

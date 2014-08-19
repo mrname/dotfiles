@@ -16,3 +16,8 @@ set ai
 set to "timeout for getting commands
 set ruler redraw
 set expandtab smarttab
+
+"turn off autocompletion for pymode
+let g:pymode_rope_completion = 0
+"turn off docs for pymode
+let g:pymode_doc = 0
